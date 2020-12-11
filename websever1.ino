@@ -14,8 +14,8 @@ void setup(void){
  
   //通过addAp函数存储  WiFi名称       WiFi密码
   wifiMulti.addAP("xiaomi804", "ljx365000");  // 这三条语句通过调用函数addAP来记录3个不同的WiFi网络信息。
-  wifiMulti.addAP("xiaomen", "88888888"); // 这3个WiFi网络名称分别是xiaomen, xiaomen2, xiaomen3。
-  wifiMulti.addAP("xiaomen1", "66666666"); // 这3个网络的密码分别是ljx365000，88888888，66666666。
+  wifiMulti.addAP("xiaomen1", "88888888"); // 这3个WiFi网络名称分别是xiaomen, xiaomen2, xiaomen3。
+  wifiMulti.addAP("xiaomen2", "66666666"); // 这3个网络的密码分别是ljx365000，88888888，66666666。
                                                 // 此处WiFi信息只是示例，请在使用时将需要连接的WiFi信息填入相应位置。
                                                 // 另外这里只存储了3个WiFi信息，您可以存储更多的WiFi信息在此处。
  
